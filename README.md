@@ -1,5 +1,8 @@
 # MLBPredictor
 
+# TODO:
+ ***** Clean Data to get relavent features (starting with 2020 dataset that is here)
+
 
 Mlb Betting Plan:
 Problem statement: 
@@ -25,6 +28,7 @@ Training
 - Train on total data (lets say 2015-2020) using features that we will select (TBD)
 - 
 
+
 Algorithms / Ideas to seperate
 - We want our algorithm to output a win probability for each team given data for each team starting lineup
 	- Note: Input values do not have to be current stats of given players (We can determine later)
@@ -34,8 +38,17 @@ Algorithms / Ideas to seperate
 	- use more recent data / stats as indicators when inputting values into our final model
 
 
+
+
 Models:
 - RandomForest / Tree
 - AdaBoost
 - SVM
 - Nueral Net Maybe?
+
+
+
+
+
+# (Possibly) Useful Links
+https://baseballsavant.mlb.com/leaderboard/statcast?type=batter&year=2020&position=&team=&min=50
